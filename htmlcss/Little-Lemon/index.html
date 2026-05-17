@@ -51,7 +51,28 @@
             </div>
         </div>
     </nav>
-    <main></main>
+    <main>
+        <div>
+            <div id="rating-video">
+                <video height="240" width="320" controls muted>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <form action="">
+                    <label for="">Rate us: </label>
+                    <input type="range" id="rating" name="rating" min="1" max="5" list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                    </datalist>
+                    <br>
+                    <input type="submit" value="Submit" style="margin: 10px;">
+                </form>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
