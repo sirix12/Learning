@@ -6,3 +6,39 @@
     gap: 15px;
     text-align: center;
 }
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.row .label {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.row .barcontainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+
+}
+
+.row .dish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barcontainer .pasta {
+    background-color: red;
+}
+
+.barcontainer .pizza {
+    background-color: green;
+}
+
+.barcontainer .salad {
+    background-color: blue;
+}
